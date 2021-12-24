@@ -1,0 +1,228 @@
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+.Page
+{
+display:flexbox;
+height:900px;
+width:100%;
+}
+     
+#Links
+{
+display:flex;
+width:100%;
+height:100px;
+background-color:rgb(97, 97, 96);
+}
+
+li
+{
+display:inline-block;
+padding:16px;
+text-align:left;
+color:white;
+font-size:20px;
+}
+
+a
+{
+text-decoration:none;
+color:white;
+padding:10px;
+}
+
+a:hover
+{
+color:black;
+font-weight:bold;
+}
+
+.Contener1
+{
+display:flex;
+width:100%;
+}
+
+* {box-sizing: border-box}
+.mySlides1{display: none}
+img {vertical-align: middle}
+    
+#One{
+position: relative;
+margin: auto;
+width:70%;
+height:500px;
+}
+
+.mySlides1 > img
+{
+width:100%; 
+height:500px;
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color:white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.5s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+background-color:whitesmoke;
+color:black;
+}
+
+#Tow
+{
+background-color:white;
+width:40%;
+height:500px;
+text-align:left;
+padding:50px;
+}
+
+#Shop
+{
+text-decoration:none;
+color:black;
+letter-spacing:10px;
+padding:0.5px;
+}
+
+.Contener2
+{
+display:flex;
+width:100%;
+}
+    
+#Three
+{
+width:30%;
+height:300px;
+background-image:url(F7.jpeg);
+background-size:cover;
+background-position:center;
+}
+    
+#Four
+{
+background-color:white;
+width:40%;
+height:300px;
+text-align:left;
+padding:50px;
+}
+    
+#Five
+{
+width:41%;
+height:300px;
+background-image:url(F6.jpg);
+background-size:cover;
+background-position:center;
+}
+
+@media screen and (max-width:600px) 
+{
+
+.Page
+{
+display:block;
+height:1920px;
+width:100%;
+}
+
+#Links
+{
+display:flex;
+width:100%;
+height:60px;
+background-color:rgb(97, 97, 96);
+}
+
+li
+{
+display:inline-block;
+padding:4px;
+text-align:center;
+color:white;
+font-size:16px;
+}
+
+.Contener1
+{
+display:block;
+width:100%;
+}
+
+#One
+{
+width:100%;
+height:450px;
+}
+
+#Tow
+{
+background-color:white;
+width:100%;
+height:700px;
+text-align:left;
+padding:50px;
+}
+
+#Tow>h1
+{
+padding-top:20px;
+}
+
+.Contener2
+{
+display:block;
+width:100%;
+}
+
+#Three
+{
+width:100%;
+height:300px;
+background-image:url(F7.jpeg);
+background-size:cover;
+background-position:center;
+}
+
+#Four
+{
+background-color:white;
+width:100%;
+height:450px;
+text-align:left;
+padding:50px;
+}
+
+#Five
+{
+width:100%;
+height:300px;
+background-image:url(F6.jpg);
+background-size:cover;
+background-position:center;
+}
+
+}
